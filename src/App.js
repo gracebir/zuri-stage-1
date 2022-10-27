@@ -1,7 +1,7 @@
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <h1>zuri stage 1 </h1>
     </div>
   );
