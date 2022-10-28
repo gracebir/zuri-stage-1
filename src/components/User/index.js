@@ -1,13 +1,16 @@
 import React from 'react'
 import './User.css';
+import user_profile from '../../assets/profile__img.png'
 
 function User() {
   return (
     <div className='user'>
-      <div className="user__profile">
-        <img id='profile__img' src="" alt="" className="profile_pic" />
+      <div className='user__container'>
+        <div className="user__profile">
+          <img id='profile__img' src={user_profile} alt="" className="profile_pic" />
+        </div>
+        <p className='user__name'>Annette Black</p>
       </div>
-      <div className='user__name'>Annette Black</div>
     </div>
   )
 }
