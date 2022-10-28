@@ -1,8 +1,9 @@
+import Header from "./components/header";
 
 function App() {
   return (
     <div>
-      <h1>zuri stage 1 </h1>
+      <Header/>
     </div>
   );
 }
